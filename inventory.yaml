@@ -4,3 +4,7 @@ all:
       ansible_host: 44.200.171.104
       ansible_user: ubuntu
       ansible_ssh_private_key_file: /var/lib/jenkins/server.pem
+    server2:
+      ansible_connection: ssh
+      ansible_user: puru
+   -e ansible_password=Bapuji@54321
