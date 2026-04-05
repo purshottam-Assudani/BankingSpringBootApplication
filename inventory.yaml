@@ -4,8 +4,3 @@ all:
       ansible_host: 44.200.171.104
       ansible_user: ubuntu
       ansible_ssh_private_key_file: /var/lib/jenkins/server.pem
-
-    server2:
-      ansible_host: 20.51.180.169
-      ansible_user: ubuntu
-      ansible_ssh_private_key_file: /var/lib/jenkins/server.pem
