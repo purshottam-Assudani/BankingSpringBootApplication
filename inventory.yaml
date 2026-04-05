@@ -3,14 +3,14 @@ aws
 azure
 
 [aws]
-44.221.42.199
+44.200.171.104
 
 [aws:vars]
 ansible_ssh_user=ubuntu
 ansible_ssh_private_key_file="{{ key_pair_path }}"
 
 [azure]
-172.174.30.76
+20.51.180.169
 
 [azure:vars]
 ansible_ssh_user=puru
