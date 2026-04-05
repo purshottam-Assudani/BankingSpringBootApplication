@@ -13,5 +13,5 @@ ansible_ssh_private_key_file="{{ key_pair_path }}"
 172.174.30.76
 
 [azure:vars]
-ansible_ssh_user=devops
+ansible_ssh_user=puru
 ansible_ssh_pass="{{ ansible_password }}"
