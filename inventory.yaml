@@ -1,17 +1,11 @@
-[all:children]
-aws
-azure
+all:
+  hosts:
+    server1:
+      ansible_host: 44.200.171.104
+      ansible_user: ubuntu
+      ansible_ssh_private_key_file: /var/lib/jenkins/server.pem
 
-[aws]
-44.200.171.104
-
-[aws:vars]
-ansible_ssh_user=ubuntu
-ansible_ssh_private_key_file="{{ key_pair_path }}"
-
-[azure]
-20.51.180.169
-
-[azure:vars]
-ansible_ssh_user=puru
-ansible_ssh_pass="{{ ansible_password }}"
+    server2:
+      ansible_host: 20.51.180.169
+      ansible_user: ubuntu
+      ansible_ssh_private_key_file: /var/lib/jenkins/server.pem
