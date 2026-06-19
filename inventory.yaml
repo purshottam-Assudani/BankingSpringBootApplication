@@ -3,7 +3,7 @@ all:
     server1:
       ansible_host: 13.217.224.55
       ansible_user: ubuntu
-      ansible_ssh_private_key_file: /var/lib/jenkins/mykkp19626.pem
+      ansible_ssh_private_key_file: /var/lib/jenkins/server.pem
 
     server2:
       ansible_host: 20.127.100.210
